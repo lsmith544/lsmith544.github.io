@@ -42,6 +42,8 @@
         createCollectable(type.max, 70, 440);
         createCollectable(type.max, 670, 440);
         createCollectable(type.kennedi, 370,140)
+        createCollectable(type.steve, 360,330)
+        createCollectable(type.grace, 70,240)
         
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
