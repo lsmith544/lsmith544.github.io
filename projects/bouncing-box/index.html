@@ -9,7 +9,6 @@
 		.box {
 			width: 100px;
 			height: 100px;
-			transparency-color: white;
 			background-image: url("https://findicons.com/files/icons/2770/ios_7_icons/100/ghost.png");
 			font-size: 300%;
 			text-align: center;
@@ -26,14 +25,14 @@
 
 
 		}
-		
-body { 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
+		body {
+			background: url(images/bg.jpg) no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
 	</style>
 	<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
 
@@ -104,7 +103,7 @@ body {
 			function handleBoxClick() {
 				positionX = 0;
 				points = points + 1;
-				speed = speed + 3;
+
 
 				if (speed >= 0) {
 					speed += 3;
