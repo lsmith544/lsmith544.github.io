@@ -79,7 +79,7 @@ This is the final error. The circles stick to the bottom. Follow the same steps 
 Submit your work regularly. Because these files are already being tracked by your GitHub repo, you can skip the "git add" step. Instead, enter the following commands:
 
 ```bash
-git commit -a -m "saving debugging exercise"
+gi
 git push
 ```
 
